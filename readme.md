@@ -73,7 +73,7 @@ This project focuses on utilizing different design layouts to emphasize certain 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Deployement link: 
+Deployement link: https://jowardf.github.io/WD-Seatwork-4/
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
