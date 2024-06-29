@@ -239,5 +239,65 @@ nav {
     opacity: 0;
 }
 
+/* Trial responsive */
+@media only screen and (max-width:320px) {
+    .hero-head {
+        background-color: yellow;
+        font-size: 30px;
+    }
+    .hero-head::after {
+        position: absolute;
+        margin-top: 6rem;
+        font-size: 20px;
+        content: "(Mobile Version?)";
+    }
+}
 
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .intro {
+        width: 50dvh;
+        overflow: hidden;
+    }
+    .get-started {
+        display: none;
+    }
+    .feature-title {
+        font-size: 25px;
+    }
+    .container-img {
+        margin-left: -10.5rem;
+        margin-top: 20rem;
+        height: 20dvh;
+        width: 40dvh;
+    }
+    .discover-more {
+        margin-left: 0;
+        width: 50dvh;
+        font-size: 30px;
+    }
+    .gamemodes {
+        width: 50dvh;
+    }
+    .category-img {
+        display: none;
+    }
+    .sub-category {
+        width: 40dvh;
+    }
+    .hero-title {
+        background-color: #3c85273f;
+        filter: blur(1);
+        font-size: 40px;
+    }
+    .hero-title::after {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 1rem;
+        font-size: 20px;
+        color: white;
+        content: "(Tablet Version)";
+    }
+}
 
