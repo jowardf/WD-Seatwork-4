@@ -19,13 +19,11 @@ i {
 }
 
 nav {
-    /* outline: 1px red dashed; */
     display: flex;
     height: 100%;
 }
 
 .btn {
-    /* outline: 1px white dashed; */
     display: flex;
     justify-content: center;
     align-items: center;
