@@ -46,8 +46,12 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
-    background-color: greenyellow;
+    font-size: 90px;
+    filter: drop-shadow(0 -2px 5px white);
+    /* background-color: goldenrod; */
+    background-image: url(../img/bg-terraria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .feature {
@@ -61,6 +65,7 @@ nav {
     color: white;
     position: absolute;
     margin-top: 20px;
+    bottom: -12%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
